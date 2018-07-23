@@ -5,21 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_marginLeft="30dp"
+    >
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="EmailSpammer"/>
+        android:text="EmailSpammer"
+        android:textSize="50dp"
+        android:fontFamily="@font/muli_black"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="An easy way to assault the mailbox."/>
+        android:fontFamily="@font/muli_black"
+
+        android:text="An easy way to assault the mailbox."
+        />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableRight="@drawable/icon1"
-        android:text="Get Started!"
+        android:text="Esketit"
+        android:fontFamily="@font/muli_black"
         android:id="@+id/start"/>
 
 </LinearLayout>

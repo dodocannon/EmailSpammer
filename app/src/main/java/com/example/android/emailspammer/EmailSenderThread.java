@@ -78,9 +78,9 @@ public class EmailSenderThread implements Runnable {
             message.setSubject(String.valueOf(Math.random()));
             message.setText(text);
             Transport.send(message);
-            Toast.makeText(context, "Success", Toast.LENGTH_SHORT).show();
+
         } catch (Exception me) {
-            Toast.makeText(context, "Failed", Toast.LENGTH_SHORT).show();
+
             me.printStackTrace();
         }
     }
